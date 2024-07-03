@@ -26,8 +26,8 @@ jobs:
           exportEnv: true
           exportToken: false
           outputToken: false
-          tlsSkipVerify: false
-          jwtTtl: 3600
+          tlsSkipVerify: true
+          jwtTtl: 360000
           ignoreNotFound: false
 
       - name: Display Vault Secrets
